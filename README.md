@@ -1,3 +1,3 @@
 # Прозрачный мост
 
-<a href="http://golubovsky.name/cursova/>Демонстрация работы</a>
+Демонстрация работы: http://golubovsky.name/cursova
