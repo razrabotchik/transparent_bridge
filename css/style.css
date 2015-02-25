@@ -1,0 +1,203 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+    padding-bottom: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+@media (min-width: 1068px) {
+    .container {
+        max-width: 1030px;
+    }
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 14px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.log-container {
+    margin: 50px 0;
+}
+
+.log-container textarea {
+    height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.container .jumbotron {
+    padding: 20px;
+}
+
+.lan-container {
+    position: relative;
+    height: 280px;
+}
+
+.lan-horizontal-line {
+    height: 3px;
+    background-color: #555;
+    width: 1020px;
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    right: -10px;
+    top: 90px;
+}
+
+.lan-modem {
+    position: absolute;
+    z-index: 2;
+    left: 400px;
+    top: 25px;
+}
+
+.lan-vertical-line {
+    height: 100px;
+    width: 3px;
+    background-color: #555;
+    position: absolute;
+    z-index: 0;
+    top: 90px;
+}
+
+.lan-vertical-line-active {
+    background: #F55 !important;
+    box-shadow: 0 0 3px rgba(255, 0, 0, 0.3);
+}
+
+.line-client-line-1 {
+    left: 60px;
+}
+
+.line-client-line-2 {
+    left: 130px;
+}
+
+.line-client-line-3 {
+    left: 200px;
+}
+
+.line-client-line-4 {
+    left: 270px;
+}
+
+.line-client-line-5 {
+    left: 340px;
+}
+
+.line-client-line-6 {
+    left: 660px;
+}
+
+.line-client-line-7 {
+    left: 730px;
+}
+
+.line-client-line-8 {
+    left: 800px;
+}
+
+.line-client-line-9 {
+    left: 870px;
+}
+
+.line-client-line-10 {
+    left: 940px;
+}
+
+.clients-items-list {
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+
+.client-item {
+    float: left;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.client-item-selected {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.client-item-6 {
+    margin-left: 250px;
+}
+
+.lan-container p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.log-scrolling {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.log-container .list-group-item:first-child {
+    border-radius: 0;
+}
+
+.log-container .list-group .list-group-item {
+    padding: 2px 10px;
+}
